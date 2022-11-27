@@ -205,7 +205,7 @@ public class TelaSimulacao {
 	     		frameSimulacao.add(panelSimulacaoGrupo);
 	     		frameSimulacao.add(panelContainerMataAMata);
 	     		
-	     		frameSimulacao.setSize(900,1200); 
+	     		frameSimulacao.setSize(900,900); 
 	     		frameSimulacao.setLayout(new GridLayout(2,1));
 	     		frameSimulacao.setVisible(true);  
 	     		frameSimulacao.setLocationRelativeTo(null); 
