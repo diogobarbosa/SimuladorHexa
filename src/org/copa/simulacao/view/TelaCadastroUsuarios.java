@@ -30,9 +30,9 @@ public class TelaCadastroUsuarios {
 		frameCadastroUsuario.setLocationRelativeTo(null);
 		frameCadastroUsuario.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JPanel panelCadastroUsuário = new JPanel();
-		panelCadastroUsuário.setLayout(null);
-		panelCadastroUsuário.setBackground(Color.getHSBColor(328, 1.0F, 0.49F));
+		JPanel panelCadastroUsuario = new JPanel();
+		panelCadastroUsuario.setLayout(null);
+		panelCadastroUsuario.setBackground(Color.getHSBColor(328, 1.0F, 0.49F));
 
 		JLabel labelNomeUsuario = new JLabel("Nome:");
 		labelNomeUsuario.setBounds(20, 20, 60, 30);
@@ -88,16 +88,16 @@ public class TelaCadastroUsuarios {
 			}
 		});
 		
-		panelCadastroUsuário.add(labelNomeUsuario);
-		panelCadastroUsuário.add(txtNomeUsuario);
-		panelCadastroUsuário.add(labelEmailUsuario);
-		panelCadastroUsuário.add(txtEmailUsuario);
-		panelCadastroUsuário.add(labelSenhaUsuario);
-		panelCadastroUsuário.add(txtSenhaUsuario);
-		panelCadastroUsuário.add(botaoCadastrar);
-		panelCadastroUsuário.add(botaoVoltar);
+		panelCadastroUsuario.add(labelNomeUsuario);
+		panelCadastroUsuario.add(txtNomeUsuario);
+		panelCadastroUsuario.add(labelEmailUsuario);
+		panelCadastroUsuario.add(txtEmailUsuario);
+		panelCadastroUsuario.add(labelSenhaUsuario);
+		panelCadastroUsuario.add(txtSenhaUsuario);
+		panelCadastroUsuario.add(botaoCadastrar);
+		panelCadastroUsuario.add(botaoVoltar);
 
-		frameCadastroUsuario.add(panelCadastroUsuário);
+		frameCadastroUsuario.add(panelCadastroUsuario);
 		
 
 	}
