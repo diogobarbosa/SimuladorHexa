@@ -3,8 +3,6 @@ package org.copa.simulacao;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 
@@ -24,28 +22,28 @@ public class SimuladorCopa {
 	}
 	
 	
-	public List<Time> simularCadastroTimes(){
-		
-	
-		try {
-			List<Time> listaTimes = new ArrayList<Time>();
-			
-			Collection<Object> lista = SimuladorCopa.getProp().values();
-			lista.forEach(timeProperties -> {
-				Time time = new Time(timeProperties.toString());
-				listaTimes.add(time);
-			});
-			
-			Collections.shuffle(listaTimes);
-			return listaTimes;
-			
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-		}
-		
-		return null;
-	}
+//	public List<Time> simularCadastroTimes(){
+//		
+//	
+//		try {
+//			List<Time> listaTimes = new ArrayList<Time>();
+//			
+//			Collection<Object> lista = SimuladorCopa.getProp().values();
+//			lista.forEach(timeProperties -> {
+//				Time time = new Time(timeProperties.toString());
+//				listaTimes.add(time);
+//			});
+//			
+//			Collections.shuffle(listaTimes);
+//			return listaTimes;
+//			
+//		} catch (IOException e) {
+//			
+//			e.printStackTrace();
+//		}
+//		
+//		return null;
+//	}
 
 
 	public void exibirResultadoFaseGrupos(List<Grupo> listaGrupos) {
